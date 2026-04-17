@@ -13,13 +13,13 @@ class Admin(Usuario):
     def menu(self,catalogo):
         os.system('cls' if os.name == 'nt' else 'clear')
         while True:
-            print("--- Menú Admin ---")
-            print("1- Listar catálogo")
-            print("2- Crear producto en catálogo")
-            print("3- Eliminar producto en catálogo")
-            print("4- Guardar en archivo")
+            print("menu admin")
+            print("1- listar catalogo")
+            print("2- crear producto en catalogo")
+            print("3- eliminar producto en catalogo")
+            print("4- guardar en archivo")
 
-            opcion = input("Ingrese su opción: ")
+            opcion = input("ingrese su opcion: ")
 
             if opcion == "1":
                 catalogo.listar_catalogo()
