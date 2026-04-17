@@ -6,8 +6,8 @@ class Producto:
         self.precio = precio
 
     def __str__(self):
-        return f"el id del producto es : {self.id} - {self.nombre} - {self.categoria} - {self.precio}"
+        return f"el id: {self.id} - {self.nombre} - {self.categoria} - {self.precio}"
     
-producto1 = Producto(1,"computador","tecnologia",1000)
-
-print(producto1)
+    def __repr__(self):
+        return self.nombre
+    
