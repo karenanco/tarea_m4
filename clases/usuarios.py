@@ -32,8 +32,10 @@ class Admin(Usuario):
             elif opcion =="3":
                 id = int(input("ID a borrar: "))
                 catalogo.eliminar_producto(id)
+                print("Producto borrado exitosamente")
             elif opcion =="4":
                 catalogo.guardar_catalogo()
+                print("Producto guardado exitosamente en el archivo catálogo.txt")
             else:
                 print("Marca una opción válida")
         
@@ -46,10 +48,10 @@ class Cliente(Usuario):
         os.system('cls' if os.name == 'nt' else 'clear')
         while True:
             print("--- Menú Cliente ---")
-            print("1- Ver catálogo")
-            print("2- Agregar al carrito")
+            print("1- Ver catálogo de productos")
+            print("2- Agregar productos al carrito")
             print("3- Ver carrito")
-            print("4- Comprar")
+            print("4- Comprar productos seleccionados")
 
             opcion = input("Ingrese su opción: ")
 
@@ -64,7 +66,7 @@ class Cliente(Usuario):
             elif opcion =="3":
                 self.carrito.ver_carrito()
             elif opcion =="4":
-                self.carrito.pagar()
+                self.carrito.confirmar_compra()
                 self.carrito.vaciar()
             else:
                 print("Opción no válida. Marque otra alternativa")

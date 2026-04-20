@@ -1,0 +1,22 @@
+--- Orden de Compra: 2026-04-20 16:00:15 ---
+Producto: Té blanco con manzanilla  | Cantidad: 4 | Subtotal: $13960
+TOTAL PAGADO: $13960
+----------------------------------------
+
+--- Orden de Compra: 2026-04-20 16:06:28 ---
+Producto: Té blanco con manzanilla  | Cantidad: 4 | Subtotal: $13960
+TOTAL PAGADO: $13960
+----------------------------------------
+
+--- Orden de Compra: 2026-04-20 16:08:35 ---
+Producto: Té verde con menta y limón | Cantidad: 3 | Subtotal: $10770
+TOTAL PAGADO: $10770
+----------------------------------------
+
+--- Orden de Compra: 2026-04-20 16:14:13 ---
+Producto: Té verde con menta y limón | Cantidad: 3 | Subtotal: $10770
+Producto: Té rooibos con manzanilla y cedrón | Cantidad: 5 | Subtotal: $21450
+Producto: Té negro con vainilla y naranja | Cantidad: 2 | Subtotal: $9398
+TOTAL PAGADO: $41618
+----------------------------------------
+
