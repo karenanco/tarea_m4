@@ -1,0 +1,9 @@
+1,Té rojo con bergamota,Blends,3290
+2,Té verde con frutos rojos,Blends,3399
+3,Té blanco con manzanilla ,Blends,3490
+4,Té verde con menta y limón,Blends,3590
+5,Té verde con rosa y lavanda,Blends,3690
+6,Té rooibos con manzanilla y cedrón,Blends,4290
+7,Té rooibos con coco y chocolate,Blends,4499
+8,Té negro con vainilla y naranja,Blends,4699
+9,Té chai,Blends,3590

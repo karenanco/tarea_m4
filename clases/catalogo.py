@@ -28,7 +28,7 @@ class Catalogo:
                 for p in self.productos:
                     f.write(f"{p.id},{p.nombre},{p.categoria},{p.precio}\n") 
         except Exception as error:
-            print(f"error en el archivo : {error}")
+            print(f"Error en el archivo: {error}")
         
 
 

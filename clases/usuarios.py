@@ -13,29 +13,29 @@ class Admin(Usuario):
     def menu(self,catalogo):
         os.system('cls' if os.name == 'nt' else 'clear')
         while True:
-            print("menu admin")
-            print("1- listar catalogo")
-            print("2- crear producto en catalogo")
-            print("3- eliminar producto en catalogo")
-            print("4- guardar en archivo")
+            print("--- Menú Admin ---")
+            print("1- Listar catálogo")
+            print("2- Crear producto en catálogo")
+            print("3- Eliminar producto en catálogo")
+            print("4- Guardar en archivo")
 
-            opcion = input("ingrese su opcion: ")
+            opcion = input("Ingrese su opción: ")
 
             if opcion == "1":
                 catalogo.listar_catalogo()
             elif opcion =="2":
-                id = int(input("id de producto"))
-                nombre = input("nombre del producto")
-                categoria = input("categoria del producto")
-                precio = int(input("precio del producto"))
+                id = int(input("ID de producto: "))
+                nombre = input("Nombre del producto: ")
+                categoria = input("Categoría del producto: ")
+                precio = int(input("Precio del producto: "))
                 catalogo.agregar_producto(Producto(id,nombre,categoria,precio))
             elif opcion =="3":
-                id = int(input("id a borrar"))
+                id = int(input("ID a borrar: "))
                 catalogo.eliminar_producto(id)
             elif opcion =="4":
                 catalogo.guardar_catalogo()
             else:
-                print("pon una opcion valida")
+                print("Marca una opción válida")
         
 class Cliente(Usuario):
     def __init__(self, nombre):
@@ -45,19 +45,19 @@ class Cliente(Usuario):
     def menu(self,catalogo):
         os.system('cls' if os.name == 'nt' else 'clear')
         while True:
-            print("menu cliente")
-            print("1- ver catalogo")
-            print("2- agregar al carrito")
-            print("3- ver carrito")
-            print("4- comprar")
+            print("--- Menú Cliente ---")
+            print("1- Ver catálogo")
+            print("2- Agregar al carrito")
+            print("3- Ver carrito")
+            print("4- Comprar")
 
-            opcion = input("ingrese su opcion: ")
+            opcion = input("Ingrese su opción: ")
 
             if opcion == "1":
                 catalogo.listar_catalogo()
             elif opcion =="2":
-                id = int(input("ingrese el id del producto"))
-                cantidad = int(input("cantidad"))
+                id = int(input("Ingrese el ID del producto: "))
+                cantidad = int(input("Cantidad: "))
                 producto= catalogo.buscar_por_id(id)
                 self.carrito.agregar(producto,cantidad)
 
@@ -67,7 +67,7 @@ class Cliente(Usuario):
                 self.carrito.pagar()
                 self.carrito.vaciar()
             else:
-                print("opcion no valida!!!")
+                print("Opción no válida. Marque otra alternativa")
                 
             
 

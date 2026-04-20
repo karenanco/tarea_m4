@@ -17,14 +17,14 @@ class Carrito:
         for p,c in self.items.items():
             subtotal = p.precio * c
             total += subtotal
-            print(f"{p.nombre} - cantidad{c}- subtotal {subtotal}")
-        print(f"total de la compra: {total}")
+            print(f"{p.nombre} - Cantidad: {c}- Subtotal: {subtotal}")
+        print(f"Total de la compra: {total}")
 
     def vaciar(self):
         self.items.clear()
 
     def pagar(self):
-        return f"ingrese el pago"
+        return f"Ingrese el pago"
 
 
 
