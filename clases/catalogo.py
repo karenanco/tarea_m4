@@ -20,7 +20,12 @@ class Catalogo:
 
     def eliminar_producto(self,id):
         p = self.buscar_por_id(id)
-        self.productos.remove(p)
+        
+        if p:
+            self.productos.remove(p)
+            print(f"El producto '{p.nombre}' ha sido eliminado del catálogo.")
+        else:
+            print(f"No se encontró un producto con el ID {id}.")
     
     def guardar_catalogo(self, nombre_archivo="catalogo.txt"):
         try:

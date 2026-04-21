@@ -20,3 +20,20 @@ Producto: Té negro con vainilla y naranja | Cantidad: 2 | Subtotal: $9398
 TOTAL PAGADO: $41618
 ----------------------------------------
 
+--- Orden de Compra: 2026-04-20 17:12:32 ---
+Producto: Té verde con rosa y lavanda | Cantidad: 5 | Subtotal: $18450
+TOTAL PAGADO: $18450
+----------------------------------------
+
+--- Orden de Compra: 2026-04-20 17:15:23 ---
+Producto: Té blanco con manzanilla  | Cantidad: 6 | Subtotal: $20940
+Producto: Té rooibos con manzanilla y cedrón | Cantidad: 4 | Subtotal: $17160
+TOTAL PAGADO: $38100
+----------------------------------------
+
+--- Orden de Compra: 2026-04-21 14:58:48 ---Producto: Té verde con menta y limón | Cantidad: 7 | Subtotal: $25130Producto: Té verde con rosa y lavanda | Cantidad: 4 | Subtotal: $14760TOTAL PAGADO: $39890----------------------------------------
+
+--- Orden de Compra: 2026-04-21 14:59:20 ---Producto: Té verde con menta y limón | Cantidad: 4 | Subtotal: $14360TOTAL PAGADO: $14360----------------------------------------
+
+--- Orden de Compra: 2026-04-21 15:00:16 ---Producto: Té blanco con manzanilla  | Cantidad: 3 | Subtotal: $10470TOTAL PAGADO: $10470----------------------------------------
+

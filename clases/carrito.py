@@ -48,12 +48,12 @@ class Carrito:
             ahora = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
             with open("ordenes.txt", "a", encoding="utf-8") as f:
-                f.write(f"--- Orden de Compra: {ahora} ---\n")
+                f.write(f"--- Orden de Compra: {ahora} ---")
                 for p, c in self.items.items():
                     subtotal = p.precio * c
                     total += subtotal
-                    f.write(f"Producto: {p.nombre} | Cantidad: {c} | Subtotal: ${subtotal}\n")
-                f.write(f"TOTAL PAGADO: ${total}\n")
+                    f.write(f"Producto: {p.nombre} | Cantidad: {c} | Subtotal: ${subtotal}")
+                f.write(f"TOTAL PAGADO: ${total}")
                 f.write("-" * 40 + "\n\n")
 
             self.vaciar()

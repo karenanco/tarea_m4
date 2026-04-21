@@ -17,7 +17,7 @@ class Tienda:
         self.catalogo.agregar_producto(Producto(5,"Té verde con rosa y lavanda","Blends",3690))
         self.catalogo.agregar_producto(Producto(6,"Té rooibos con manzanilla y cedrón","Blends",4290))
         self.catalogo.agregar_producto(Producto(7,"Té rooibos con coco y chocolate","Blends",4499))
-        self.catalogo.agregar_producto(Producto(8,"Té negro con vainilla y naranja","Blends",4699))
+        self.catalogo.agregar_producto(Producto(8,"Té negro con vainilla y naranja","Blends",44699))
 
     def iniciar(self):
         print("1- Admin")
